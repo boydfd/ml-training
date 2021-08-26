@@ -26,7 +26,7 @@ def trainModel3(x_train, y_train, x_valid, y_valid):
     myModel = model.MyModel()
     myModel.train(trainDataSet, epochs, lr, bs)
     preds_vaild = myModel.predict(x_valid)
-    print('acc:{0}',accuracy(preds_vaild, y_valid)/y_valid.size(0))
+    print('acc:',(accuracy(preds_vaild, y_valid)/y_valid.size(0)).item())
 
 
 
