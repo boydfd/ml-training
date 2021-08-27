@@ -1,0 +1,9 @@
+xgboost
+catboost
+lightgbm
+ipywidgets
+mlxtend
+geopy
+shap
+numpy==1.20
+pydotplus
